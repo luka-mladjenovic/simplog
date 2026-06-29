@@ -1,0 +1,20 @@
+# Python cache files (compiled bytecode)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python distribution and build folders (from running python -m build)
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments (if you use them later)
+.venv/
+venv/
+ENV/
+
+# Local IDE settings
+.vscode/
+.idea/
