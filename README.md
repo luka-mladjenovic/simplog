@@ -16,7 +16,7 @@ simplog ditches the complex configuration of Python's built-in logging module an
 You can install `simplog` directly from this GitHub repository using `pip`:
 
 ```bash
-pip install git+[https://github.com/luka-mladjenovic/simplog.git](https://github.com/luka-mladjenovic/simplog.git)
+pip install git+https://github.com/luka-mladjenovic/simplog.git
 ```
 
 ## Quick Start Guide
