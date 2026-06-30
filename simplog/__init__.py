@@ -2,7 +2,9 @@ import datetime
 
 class SimpLog:
 
-    def __init__(self, level="INFO"):
+    def __init__(self, name=__name__, level="INFO"):
+
+        self.name = name.upper()
 
         # Map textual levels to numbers
         self.levels = {
@@ -24,7 +26,7 @@ class SimpLog:
         # Only print if the message level meets or exceeds the minimum threshold
         if current_val >= min_val:
             timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-            print(f"[{timestamp}] [{level_name}] {message}")
+            print(f"[{timestamp}] [{self.name}] [{level_name}] {message}")
 
     # --- Shortcut Methods --- 
 
